@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main()
-{int r,p,num=0;
+{int r,num=0;
+ long int p;
     scanf("%d",&p);
     while(p!=0)
     {
