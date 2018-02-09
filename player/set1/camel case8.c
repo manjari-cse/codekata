@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main()
-{char a[100],t;
+{char a[10000],t;
 int i,j;
     scanf("%[^\n]s",a);
     a[0]=a[0]-32;
