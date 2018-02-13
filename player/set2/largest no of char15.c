@@ -14,7 +14,6 @@ void main()
 	if(count>max)
 	max=count;
 	}
-	printf("%d",max);
 	for(i=0;a[i]!='\0';i++)
 	{
 		count1=0;
