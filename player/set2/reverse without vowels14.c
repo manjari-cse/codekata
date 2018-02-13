@@ -1,6 +1,7 @@
 #include<stdio.h>
 void main()
-{char a[20],b[20],i,j=0,count;
+{char a[20],b[20];
+ int i,j=0,count;
 scanf("%s",a);
 for(i=0;a[i]!='\0';i++)
 {
