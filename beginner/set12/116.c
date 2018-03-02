@@ -2,8 +2,12 @@
 
 void main()
 {
-int n,k,count=0,r1,rev,r;
+int n,k,count=0,r1,rev=0,r;
 scanf("%d %d",&n,&k);
+if(k==0)
+{
+	n=n*10;
+}
 while(k>0)
 {
     r=k%10;
@@ -18,4 +22,4 @@ while(rev>0)
 }
 printf("%d",n);
    
-}
+   }
