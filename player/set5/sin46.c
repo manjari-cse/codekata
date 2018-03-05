@@ -4,12 +4,21 @@
 #define PI 3.14159265
 
 int main () {
-   float x, ret, val;
+   double x, ret, val;
+   float round1;
+   int a;
 
-scanf("%f",&x);
+scanf("%lf",&x);
    val = PI / 180;
    ret = sin(x*val);
-   printf("The sine of %f is %f degrees", x, ret);
+   round1=(float)(ret);
+   if(round1==-1.000000||round1<=-0.000000||round1==0.000000||round1==1.000000)
+   {
+   	a=(int)(round1);
+   	printf("%d",a);
+   }
+   else
+   printf("%.1f",round1);
    
    return(0);
 }
