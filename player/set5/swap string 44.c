@@ -5,6 +5,10 @@ void main()
 char a[10000],b[10000];
 	scanf("%s",a);
 	scanf("%d",&n);
+	if(n>strlen(a))
+	{
+		printf("%s",a);
+	}
 	for(i=n;i<=strlen(a);i++)
 	{
 		b[j]=a[i];
