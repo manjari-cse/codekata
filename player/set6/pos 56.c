@@ -9,7 +9,7 @@ for(i=0;a[i]!='\0';i++)
 {
 if(a[i]==b)
 {
-printf("%d",i);
+printf("%d",i+1);
 break;
 }
 }
