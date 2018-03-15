@@ -7,7 +7,7 @@ int main(void) {
 	scanf("%d",&a[i]);
 	for(i=0;i<limit;i++)
 	{
-		for(j=0;j<limt;j++)
+		for(j=0;j<limit;j++)
 		{
 			if(a[i]>a[j])
 			{
