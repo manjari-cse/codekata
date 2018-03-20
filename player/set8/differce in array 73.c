@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-	int N,a[10000],i,k;
+	int N,a[100000],i,k;
 	scanf("%d %d",&N,&k);
 	for(i=0;i<N;i++)
 	scanf("%d",&a[i]);
